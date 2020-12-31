@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>TaskPad</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\API\API.Controllers\API.Controllers.csproj" />
+      <ProjectReference Include="..\BL\BL.Services\BL.Services.csproj" />
+      <ProjectReference Include="..\DAL\DAL.Context\DAL.Context.csproj" />
+      <ProjectReference Include="..\DAL\DAL.Repositories\DAL.Repositories.csproj" />
+    </ItemGroup>
+
+</Project>
